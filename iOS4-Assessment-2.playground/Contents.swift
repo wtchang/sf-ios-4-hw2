@@ -91,9 +91,9 @@ if isDayTime{
 //     "too long" if it is more than two hours, and
 //     "just right" if it is between the two
 
-if lengthOfMovieInMinutes < 60{
+if lengthOfMovieInMinutes < 60 {
     print("too short")
-} else if lengthOfMovieInMinutes > 120{
+} else if lengthOfMovieInMinutes > 120 {
     print("too long")
 } else {
     print ("just right")
